@@ -85,23 +85,18 @@ void get_cpu_type(char *cpu_type){
 void get_cpu_model(){
     char aux[1024];
     char* match1;
-    //char* match2;
-    //unsigned long posicion1;
-    //unsigned long posicion2;
+    int i=0;
 
-    match1=strstr(buf, "model name");
-    while(fgets(aux,500,))
-    //match2=strstr(buf, "stepping");
-    sscanf(match1,"model name : %20s",buf);
-    //if(match1==NULL||match2==NULL) return ;
-    //posicion1=strlen(buf)-strlen(match1)+6;
-    //posicion2=strlen(buf)-strlen(match2)-1;/*
-   /* for(unsigned long i=posicion1; i<posicion2; i++){
-        aux[i-posicion1]=buf[i];
-    }*/
-    //aux[posicion2]='\0';
+    match1=strstr(buf, "name");
+    unsigned long j=strlen(buf)-strlen(match1)+6;
+    while(buf[j]!='\n'){
+        aux[i]=buf[j];
+        i++;
+        j++;
+    }
+    aux[i]='\0';
 
-    //strcpy(buf,aux);
+    strcpy(buf,aux);
 }
 
 void get_filesystem(){
