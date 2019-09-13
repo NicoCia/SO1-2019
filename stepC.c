@@ -115,11 +115,14 @@ double get_loadavg(){
     return loadavg;
 }
 
-void stepC(double interval, double duration){
+void stepD(char *inte, char *dur){
     time_t inicial;
     time_t actual;
     inicial=time(NULL);
     actual=time(NULL);
+
+    double interval=atof(inte);
+    double duration=atof(dur);
 
     while(difftime(time(NULL),inicial)<=duration){
         read_diskstats();
