@@ -63,11 +63,11 @@ int main(int argc,char *argv[]){
 void controlar_doble_Argumentos(int argc,char* argv[]){
     //Lista argumentos validos si se pasa por parámetro más de un argumento
     if(argc>2) {
-        if(strncmp(argv[1],"-s",3)&&argv[2]==NULL)return;
-        if(argc==4&&(strncmp(argv[1],"-l",4)&&argv[4]=='\0'))return;
-        if(argc==3&&(strncmp(argv[1],"-p",4)&&argv[3]=='\0'))return;
-        if(argc==3&&(strncmp(argv[1],"-f",4)&&argv[3]=='\0'))return;
-        if(argc==3&&(strncmp(argv[1],"-t",4)&&argv[3]=='\0'))return;
+        if(strncmp(argv[1],"-s",3)==0&&argv[2]==NULL)return;
+        if(argc==4&&(strncmp(argv[1],"-l",4)==0&&argv[4]=='\0'))return;
+        if(argc==3&&(strncmp(argv[1],"-p",4)==0&&argv[3]=='\0'))return;
+        if(argc==3&&(strncmp(argv[1],"-f",4)==0&&argv[3]=='\0'))return;
+        if(argc==3&&(strncmp(argv[1],"-t",4)==0&&argv[3]=='\0'))return;
         imprimir_argumentos_validos(stdout,0);
     }
 }
