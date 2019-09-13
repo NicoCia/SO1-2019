@@ -88,7 +88,7 @@ void get_cpu_model(){
     int i=0;
 
     match1=strstr(buf, "name");
-    unsigned long j=strlen(buf)-strlen(match1)+6;
+    unsigned long j=strlen(buf)-strlen(match1)+strlen("name : ");
     while(buf[j]!='\n'){
         aux[i]=buf[j];
         i++;
