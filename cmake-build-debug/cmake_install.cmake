@@ -1,4 +1,4 @@
-# Install script for directory: /home/nicocia/CLionProjects/TP1
+# Install script for directory: /home/nico/CLionProjects/SO1-2019
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nicocia/CLionProjects/TP1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nico/CLionProjects/SO1-2019/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

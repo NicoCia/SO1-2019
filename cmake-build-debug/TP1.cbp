@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/nicocia/CLionProjects/TP1/cmake-build-debug"/>
+				<Option working_dir="/home/nico/CLionProjects/SO1-2019/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/nicocia/CLionProjects/TP1/cmake-build-debug"/>
+				<Option working_dir="/home/nico/CLionProjects/SO1-2019/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TP1">
-				<Option output="/home/nicocia/CLionProjects/TP1/cmake-build-debug/TP1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nicocia/CLionProjects/TP1/cmake-build-debug"/>
+				<Option output="/home/nico/CLionProjects/SO1-2019/cmake-build-debug/TP1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nico/CLionProjects/SO1-2019/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -41,15 +41,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP1"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TP1/fast">
-				<Option output="/home/nicocia/CLionProjects/TP1/cmake-build-debug/TP1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nicocia/CLionProjects/TP1/cmake-build-debug"/>
+				<Option output="/home/nico/CLionProjects/SO1-2019/cmake-build-debug/TP1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nico/CLionProjects/SO1-2019/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -61,51 +61,51 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP1/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/nicocia/CLionProjects/TP1/cmake-build-debug"/>
+				<Option working_dir="/home/nico/CLionProjects/SO1-2019/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/nicocia/CLionProjects/TP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nico/CLionProjects/SO1-2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/main.c">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/main.c">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/stepA.c">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/stepA.c">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/stepA.h">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/stepA.h">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/stepB.c">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/stepB.c">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/stepB.h">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/stepB.h">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/stepC.c">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/stepC.c">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/stepC.h">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/stepC.h">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/stepD.c">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/stepD.c">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/stepD.h">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/stepD.h">
 			<Option target="TP1"/>
 		</Unit>
-		<Unit filename="/home/nicocia/CLionProjects/TP1/CMakeLists.txt">
+		<Unit filename="/home/nico/CLionProjects/SO1-2019/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

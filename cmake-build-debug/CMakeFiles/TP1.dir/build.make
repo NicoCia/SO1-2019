@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicocia/CLionProjects/TP1
+CMAKE_SOURCE_DIR = /home/nico/CLionProjects/SO1-2019
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicocia/CLionProjects/TP1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/nico/CLionProjects/SO1-2019/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TP1.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/TP1.dir/flags.make
 
 CMakeFiles/TP1.dir/stepA.c.o: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/stepA.c.o: ../stepA.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP1.dir/stepA.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/stepA.c.o   -c /home/nicocia/CLionProjects/TP1/stepA.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP1.dir/stepA.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/stepA.c.o   -c /home/nico/CLionProjects/SO1-2019/stepA.c
 
 CMakeFiles/TP1.dir/stepA.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP1.dir/stepA.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP1/stepA.c > CMakeFiles/TP1.dir/stepA.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/SO1-2019/stepA.c > CMakeFiles/TP1.dir/stepA.c.i
 
 CMakeFiles/TP1.dir/stepA.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP1.dir/stepA.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP1/stepA.c -o CMakeFiles/TP1.dir/stepA.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/SO1-2019/stepA.c -o CMakeFiles/TP1.dir/stepA.c.s
 
 CMakeFiles/TP1.dir/stepC.c.o: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/stepC.c.o: ../stepC.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TP1.dir/stepC.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/stepC.c.o   -c /home/nicocia/CLionProjects/TP1/stepC.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TP1.dir/stepC.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/stepC.c.o   -c /home/nico/CLionProjects/SO1-2019/stepC.c
 
 CMakeFiles/TP1.dir/stepC.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP1.dir/stepC.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP1/stepC.c > CMakeFiles/TP1.dir/stepC.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/SO1-2019/stepC.c > CMakeFiles/TP1.dir/stepC.c.i
 
 CMakeFiles/TP1.dir/stepC.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP1.dir/stepC.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP1/stepC.c -o CMakeFiles/TP1.dir/stepC.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/SO1-2019/stepC.c -o CMakeFiles/TP1.dir/stepC.c.s
 
 CMakeFiles/TP1.dir/stepB.c.o: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/stepB.c.o: ../stepB.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TP1.dir/stepB.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/stepB.c.o   -c /home/nicocia/CLionProjects/TP1/stepB.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TP1.dir/stepB.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/stepB.c.o   -c /home/nico/CLionProjects/SO1-2019/stepB.c
 
 CMakeFiles/TP1.dir/stepB.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP1.dir/stepB.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP1/stepB.c > CMakeFiles/TP1.dir/stepB.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/SO1-2019/stepB.c > CMakeFiles/TP1.dir/stepB.c.i
 
 CMakeFiles/TP1.dir/stepB.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP1.dir/stepB.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP1/stepB.c -o CMakeFiles/TP1.dir/stepB.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/SO1-2019/stepB.c -o CMakeFiles/TP1.dir/stepB.c.s
 
 CMakeFiles/TP1.dir/main.c.o: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TP1.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/main.c.o   -c /home/nicocia/CLionProjects/TP1/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TP1.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/main.c.o   -c /home/nico/CLionProjects/SO1-2019/main.c
 
 CMakeFiles/TP1.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP1.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP1/main.c > CMakeFiles/TP1.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/SO1-2019/main.c > CMakeFiles/TP1.dir/main.c.i
 
 CMakeFiles/TP1.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP1.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP1/main.c -o CMakeFiles/TP1.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/SO1-2019/main.c -o CMakeFiles/TP1.dir/main.c.s
 
 CMakeFiles/TP1.dir/stepD.c.o: CMakeFiles/TP1.dir/flags.make
 CMakeFiles/TP1.dir/stepD.c.o: ../stepD.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TP1.dir/stepD.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/stepD.c.o   -c /home/nicocia/CLionProjects/TP1/stepD.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TP1.dir/stepD.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP1.dir/stepD.c.o   -c /home/nico/CLionProjects/SO1-2019/stepD.c
 
 CMakeFiles/TP1.dir/stepD.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP1.dir/stepD.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP1/stepD.c > CMakeFiles/TP1.dir/stepD.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/SO1-2019/stepD.c > CMakeFiles/TP1.dir/stepD.c.i
 
 CMakeFiles/TP1.dir/stepD.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP1.dir/stepD.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP1/stepD.c -o CMakeFiles/TP1.dir/stepD.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/SO1-2019/stepD.c -o CMakeFiles/TP1.dir/stepD.c.s
 
 # Object files for target TP1
 TP1_OBJECTS = \
@@ -140,7 +140,7 @@ TP1: CMakeFiles/TP1.dir/main.c.o
 TP1: CMakeFiles/TP1.dir/stepD.c.o
 TP1: CMakeFiles/TP1.dir/build.make
 TP1: CMakeFiles/TP1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable TP1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable TP1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/TP1.dir/clean:
 .PHONY : CMakeFiles/TP1.dir/clean
 
 CMakeFiles/TP1.dir/depend:
-	cd /home/nicocia/CLionProjects/TP1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicocia/CLionProjects/TP1 /home/nicocia/CLionProjects/TP1 /home/nicocia/CLionProjects/TP1/cmake-build-debug /home/nicocia/CLionProjects/TP1/cmake-build-debug /home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles/TP1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nico/CLionProjects/SO1-2019/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nico/CLionProjects/SO1-2019 /home/nico/CLionProjects/SO1-2019 /home/nico/CLionProjects/SO1-2019/cmake-build-debug /home/nico/CLionProjects/SO1-2019/cmake-build-debug /home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles/TP1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TP1.dir/depend
 

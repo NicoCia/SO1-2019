@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nicocia/CLionProjects/TP1/main.c" "/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles/TP1.dir/main.c.o"
-  "/home/nicocia/CLionProjects/TP1/stepA.c" "/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles/TP1.dir/stepA.c.o"
-  "/home/nicocia/CLionProjects/TP1/stepB.c" "/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles/TP1.dir/stepB.c.o"
-  "/home/nicocia/CLionProjects/TP1/stepC.c" "/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles/TP1.dir/stepC.c.o"
-  "/home/nicocia/CLionProjects/TP1/stepD.c" "/home/nicocia/CLionProjects/TP1/cmake-build-debug/CMakeFiles/TP1.dir/stepD.c.o"
+  "/home/nico/CLionProjects/SO1-2019/main.c" "/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles/TP1.dir/main.c.o"
+  "/home/nico/CLionProjects/SO1-2019/stepA.c" "/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles/TP1.dir/stepA.c.o"
+  "/home/nico/CLionProjects/SO1-2019/stepB.c" "/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles/TP1.dir/stepB.c.o"
+  "/home/nico/CLionProjects/SO1-2019/stepC.c" "/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles/TP1.dir/stepC.c.o"
+  "/home/nico/CLionProjects/SO1-2019/stepD.c" "/home/nico/CLionProjects/SO1-2019/cmake-build-debug/CMakeFiles/TP1.dir/stepD.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
