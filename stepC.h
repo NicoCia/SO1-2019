@@ -1,6 +1,6 @@
 #ifndef TP1_STEPC_H
 #define TP1_STEPC_H
 
-extern void stepC(double interval, double duration);
+extern void stepC(char *inte, char *dur);
 
 #endif

@@ -115,7 +115,7 @@ double get_loadavg(){
     return loadavg;
 }
 
-void stepD(char *inte, char *dur){
+void stepC(char *inte, char *dur){
     time_t inicial;
     time_t actual;
     inicial=time(NULL);
