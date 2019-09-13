@@ -6,16 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/nicocia/CLionProjects/TP1/TP1.h
-
-/home/nicocia/CLionProjects/TP1/stepD.c
-TP1.h
-/home/nicocia/CLionProjects/TP1/TP1.h
+/home/nicocia/CLionProjects/TP1/stepA.c
+stepA.h
+/home/nicocia/CLionProjects/TP1/stepA.h
 stdio.h
 -
-dirent.h
--
-unistd.h
+linux/kernel.h
 -
 sys/sysinfo.h
 -
@@ -23,10 +19,6 @@ string.h
 -
 stdlib.h
 -
-sys/types.h
--
-sys/stat.h
--
-errno.h
--
+
+/home/nicocia/CLionProjects/TP1/stepA.h
 

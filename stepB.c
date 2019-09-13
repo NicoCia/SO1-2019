@@ -60,6 +60,7 @@ long get_processes(){
 }
 
 void stepB(){
+    printf("\n-------------------------PuntoB-------------------------\n");
     long user;
     long System;
     long idle;
@@ -68,6 +69,5 @@ void stepB(){
     printf("Tiempo de CPU utilizado para usuarios / sistema / procesos idle: %ld / %ld / %ld\n",user,System,idle);
     printf("Cantidad de cambios de contexto: %ld\n",get_ctxt());
     printf("Numero de procesos creados desde el inicio del sistema: %ld\n",get_processes());
-    system("cat /proc/stat");
 }
 

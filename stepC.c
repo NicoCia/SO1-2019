@@ -116,6 +116,7 @@ double get_loadavg(){
 }
 
 void stepC(char *inte, char *dur){
+    printf("\n-------------------------PuntoC-------------------------\n");
     time_t inicial;
     time_t actual;
     inicial=time(NULL);
@@ -134,5 +135,4 @@ void stepC(char *inte, char *dur){
         while(difftime(time(NULL),actual)<interval){}
         actual=time(NULL);
     }
-    system("cat /proc/loadavg");
 }

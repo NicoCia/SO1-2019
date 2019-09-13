@@ -59,11 +59,11 @@ void pDt(int pid){
 }
 
 void stepD(char opt, int pid){
+    printf("\n-------------------------PuntoD-------------------------\n");
     switch(opt){
         case('p'): pDp(pid); break;
         case('f'): pDf(pid); break;
         case('t'): pDt(pid); break;
         default: break;
-
     }
 }

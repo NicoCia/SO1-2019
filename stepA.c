@@ -85,20 +85,23 @@ void get_cpu_type(char *cpu_type){
 void get_cpu_model(){
     char aux[1024];
     char* match1;
-    char* match2;
-    unsigned long posicion1;
-    unsigned long posicion2;
+    //char* match2;
+    //unsigned long posicion1;
+    //unsigned long posicion2;
 
-    match1=strstr(buf, "name");
-    match2=strstr(buf, "stepping");
-    if(match1==NULL||match2==NULL) return ;
-    posicion1=strlen(buf)-strlen(match1)+6;
-    posicion2=strlen(buf)-strlen(match2)-1;
-    for(unsigned long i=posicion1; i<posicion2; i++){
+    match1=strstr(buf, "model name");
+    while(fgets(aux,500,))
+    //match2=strstr(buf, "stepping");
+    sscanf(match1,"model name : %20s",buf);
+    //if(match1==NULL||match2==NULL) return ;
+    //posicion1=strlen(buf)-strlen(match1)+6;
+    //posicion2=strlen(buf)-strlen(match2)-1;/*
+   /* for(unsigned long i=posicion1; i<posicion2; i++){
         aux[i-posicion1]=buf[i];
-    }
+    }*/
+    //aux[posicion2]='\0';
 
-    strcpy(buf,aux);
+    //strcpy(buf,aux);
 }
 
 void get_filesystem(){
@@ -120,8 +123,8 @@ void stepA() {
     char aux[1024]="";
     read_hostname();
     puts(buf);
-    //printf("Fecha y hora actual: ");
     system("date");
+    printf("\n-------------------------PuntoA-------------------------\n");
     read_cpuinfo();
     get_cpu_type(aux);
     printf("Tipo de CPU: %s \n", aux);
