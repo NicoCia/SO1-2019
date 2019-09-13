@@ -78,7 +78,7 @@ void get_cpu_type(char *cpu_type){
 
     if(match==NULL) return;
 
-    sscanf(match, "vendor_id : %s", cpu_type);
+    sscanf(match, "vendor_id : %20s", cpu_type);
 
 }
 
