@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nicocia/CLionProjects/TP1/TP1.h
+
+/home/nicocia/CLionProjects/TP1/stepD.c
+TP1.h
+/home/nicocia/CLionProjects/TP1/TP1.h
+stdio.h
+-
+dirent.h
+-
+unistd.h
+-
+sys/sysinfo.h
+-
+string.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+errno.h
+-
+
