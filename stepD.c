@@ -8,7 +8,7 @@ char buf2[1024]="";
 void pDp(int pid){
     FILE *fp=popen("echo $USER","r");
     size_t bytes_read=fread(buf1,1, sizeof(buf1),fp);
-    fclose(fp);
+    pclose(fp);
     buf1[bytes_read-1]='\0';
     int esp=strlen(buf1)*2+18;
     int j=0;
@@ -17,7 +17,7 @@ void pDp(int pid){
     snprintf(buf2,64,"ls -l /proc/%i/fd",pid);
     fp=popen(buf2,"r");
     bytes_read=fread(buf1,1, sizeof(buf1),fp);
-    fclose(fp);
+    pclose(fp);
     buf1[bytes_read-1]='\0';
 
     for(int i=0; i<strlen(buf1); i++){
@@ -53,7 +53,7 @@ void pDt(int pid){
     snprintf(buf2,64,"sudo cat /proc/%i/stack",pid);
     FILE *fp=popen(buf2,"r");
     size_t bytes_read=fread(buf1,1, sizeof(buf1),fp);
-    fclose(fp);
+    pclose(fp);
     buf1[bytes_read-1]='\0';
     puts(buf1);
 }
